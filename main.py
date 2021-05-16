@@ -9,7 +9,7 @@ from fastapi.security import HTTPBasic, HTTPBasicCredentials
 import secrets
 import random
 import sqlite3
-from router import router as northwind_api_router
+
 
 
 
@@ -18,7 +18,7 @@ from router import router as northwind_api_router
 
 app = FastAPI()
 templates = Jinja2Templates(directory="templates")
-app.include_router(northwind_api_router, tags=["northwind"])
+
 
 security = HTTPBasic()
 app.secret_key = "bardzodlugiciagznakowktorychrzeczjasnaniemoznanikomupodawacxd"
