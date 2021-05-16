@@ -8,6 +8,7 @@ from sqlalchemy import (
     String,
     Table,
     Text,
+    CHAR
 )
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.sql.sqltypes import NullType

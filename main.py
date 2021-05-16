@@ -9,7 +9,7 @@ from fastapi.security import HTTPBasic, HTTPBasicCredentials
 import secrets
 import random
 import sqlite3
-from views import router as northwind_api_router
+from router import router as northwind_api_router
 
 
 
